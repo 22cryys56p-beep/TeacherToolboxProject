@@ -1,0 +1,21 @@
+{
+  "name": "@teacher-toolbox/icanspell",
+  "version": "0.1.0",
+  "description": "iCanSpell — Handwriting and spelling worksheet generator",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@teacher-toolbox/types": "*",
+    "@teacher-toolbox/core":  "*",
+    "@teacher-toolbox/ui":    "*"
+  },
+  "devDependencies": {
+    "svelte":      "^5.0.0",
+    "typescript":  "^5.4.0"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  }
+}

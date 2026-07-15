@@ -1,0 +1,40 @@
+{
+  "name": "@teacher-toolbox/shell",
+  "version": "0.1.0",
+  "description": "Teacher Toolbox platform shell — navigation, layout, and app module host",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@teacher-toolbox/core": "*",
+    "@teacher-toolbox/types": "*",
+    "@teacher-toolbox/ui": "*",
+    "@teacher-toolbox/storage": "*",
+    "@teacher-toolbox/settings": "*",
+    "@teacher-toolbox/theme-engine": "*",
+    "@teacher-toolbox/font-manager": "*",
+    "@teacher-toolbox/worksheet-output": "*",
+    "@teacher-toolbox/template-manager": "*",
+    "@teacher-toolbox/ai-service": "*",
+    "@teacher-toolbox/artwork": "*",
+    "@teacher-toolbox/icanspell": "*",
+    "@teacher-toolbox/error-reporter": "*",
+    "@teacher-toolbox/migration": "*",
+    "@teacher-toolbox/feature-flags": "*",
+    "@teacher-toolbox/analytics": "*",
+    "@teacher-toolbox/identity": "*",
+    "@teacher-toolbox/ad-service": "*",
+    "@teacher-toolbox/cloud-coordinator": "*"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.0",
+    "svelte": "^5.0.0",
+    "svelte-check": "^3.8.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.2.0"
+  }
+}

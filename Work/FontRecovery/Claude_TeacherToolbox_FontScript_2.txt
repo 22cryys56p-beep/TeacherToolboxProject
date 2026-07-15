@@ -1,0 +1,103 @@
+bash
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/c.json << 'EOF'
+{
+  "strokes": [{"path": "M 720 380 C 680 300 580 270 460 290 C 300 320 190 450 210 620 C 230 750 370 800 510 770 C 640 745 720 660 720 660","order": 1,"startPoint": {"x": 720,"y": 380},"endPoint": {"x": 720,"y": 660},"direction": "curve-counterclockwise","relativeDuration": 1.0,"difficultyEmphasis": false,"teachingNote": "Start just below the midline on the right. Curve left and counterclockwise around to the baseline, stopping on the right side. Do not close the oval."}],
+  "width": 600,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 300,"descenderLine": 750,"advance": 590,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/d.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 580 300 C 580 300 460 270 330 340 C 200 410 190 570 240 670 C 290 760 430 790 560 760 C 630 743 660 700 660 700","order": 1,"startPoint": {"x": 580,"y": 300},"endPoint": {"x": 660,"y": 700},"direction": "curve-counterclockwise","relativeDuration": 0.45,"difficultyEmphasis": false,"teachingNote": "Start at the midline on the right of the oval. Curve counterclockwise all the way around — like making an 'o' — stopping at the right side near the baseline."},
+    {"path": "M 660 0 L 660 750","order": 2,"startPoint": {"x": 660,"y": 0},"endPoint": {"x": 660,"y": 750},"direction": "down","relativeDuration": 0.55,"difficultyEmphasis": true,"teachingNote": "Lift. Place pencil at the topline on the right side of the oval. Pull straight down to the baseline."}
+  ],
+  "width": 650,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 0,"descenderLine": 750,"advance": 650,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/e.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 200 520 L 720 520","order": 1,"startPoint": {"x": 200,"y": 520},"endPoint": {"x": 720,"y": 520},"direction": "right","relativeDuration": 0.25,"difficultyEmphasis": false,"teachingNote": "Start on the left, halfway between the midline and baseline. Draw a straight line across to the right."},
+    {"path": "M 720 520 C 720 380 620 290 480 290 C 300 290 190 420 200 590 C 210 730 350 790 500 770 C 630 752 720 670 720 670","order": 2,"startPoint": {"x": 720,"y": 520},"endPoint": {"x": 720,"y": 670},"direction": "curve-counterclockwise","relativeDuration": 0.75,"difficultyEmphasis": true,"teachingNote": "From the right end of the cross stroke, curve up to the midline then counterclockwise around — left, down to the baseline, and back right. Stop without closing the oval."}
+  ],
+  "width": 600,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 300,"descenderLine": 750,"advance": 600,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/f.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 550 50 C 620 50 700 120 700 200 L 700 750","order": 1,"startPoint": {"x": 550,"y": 50},"endPoint": {"x": 700,"y": 750},"direction": "down","relativeDuration": 0.7,"difficultyEmphasis": false,"teachingNote": "Start near the topline slightly left of center. Curve right at the top, then pull straight down to the baseline."},
+    {"path": "M 350 310 L 750 310","order": 2,"startPoint": {"x": 350,"y": 310},"endPoint": {"x": 750,"y": 310},"direction": "right","relativeDuration": 0.3,"difficultyEmphasis": false,"teachingNote": "Lift. Draw a short crossbar at the midline, crossing the vertical stroke."}
+  ],
+  "width": 550,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 0,"descenderLine": 750,"advance": 420,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/h.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 200 0 L 200 750","order": 1,"startPoint": {"x": 200,"y": 0},"endPoint": {"x": 200,"y": 750},"direction": "down","relativeDuration": 0.45,"difficultyEmphasis": false,"teachingNote": "Start at the topline. Pull straight down to the baseline."},
+    {"path": "M 200 350 C 250 280 370 260 480 280 C 600 305 650 390 650 480 L 650 750","order": 2,"startPoint": {"x": 200,"y": 350},"endPoint": {"x": 650,"y": 750},"direction": "curve-clockwise","relativeDuration": 0.55,"difficultyEmphasis": false,"teachingNote": "Lift. Start on the left stick just above the midline. Curve right and over the hump, then pull straight down to the baseline."}
+  ],
+  "width": 700,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 0,"descenderLine": 750,"advance": 680,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/i.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 350 310 L 350 750","order": 1,"startPoint": {"x": 350,"y": 310},"endPoint": {"x": 350,"y": 750},"direction": "down","relativeDuration": 0.8,"difficultyEmphasis": false,"teachingNote": "Start at the midline. Pull straight down to the baseline."},
+    {"path": "M 350 170 L 350 200","order": 2,"startPoint": {"x": 350,"y": 170},"endPoint": {"x": 350,"y": 200},"direction": "down","relativeDuration": 0.2,"difficultyEmphasis": false,"teachingNote": "Lift. Place a dot above the letter, halfway between the midline and topline."}
+  ],
+  "width": 350,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 300,"descenderLine": 750,"advance": 320,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/j.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 450 310 L 450 870 C 450 960 380 1000 280 980 C 200 963 160 910 160 870","order": 1,"startPoint": {"x": 450,"y": 310},"endPoint": {"x": 160,"y": 870},"direction": "down","relativeDuration": 0.8,"difficultyEmphasis": false,"teachingNote": "Start at the midline. Pull straight down past the baseline into the descender space, then curve left to make the hook."},
+    {"path": "M 450 170 L 450 200","order": 2,"startPoint": {"x": 450,"y": 170},"endPoint": {"x": 450,"y": 200},"direction": "down","relativeDuration": 0.2,"difficultyEmphasis": false,"teachingNote": "Lift. Place a dot above the letter, halfway between the midline and topline."}
+  ],
+  "width": 420,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 300,"descenderLine": 1000,"advance": 360,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/k.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 200 0 L 200 750","order": 1,"startPoint": {"x": 200,"y": 0},"endPoint": {"x": 200,"y": 750},"direction": "down","relativeDuration": 0.35,"difficultyEmphasis": false,"teachingNote": "Start at the topline. Pull straight down to the baseline."},
+    {"path": "M 650 310 L 200 530","order": 2,"startPoint": {"x": 650,"y": 310},"endPoint": {"x": 200,"y": 530},"direction": "down-left","relativeDuration": 0.3,"difficultyEmphasis": false,"teachingNote": "Lift. Start at the midline on the right. Draw a diagonal line down-left to meet the vertical stroke at the middle."},
+    {"path": "M 370 430 L 680 750","order": 3,"startPoint": {"x": 370,"y": 430},"endPoint": {"x": 680,"y": 750},"direction": "down-right","relativeDuration": 0.35,"difficultyEmphasis": false,"teachingNote": "Lift. Start from the middle of the vertical stroke. Draw a diagonal line down-right to the baseline."}
+  ],
+  "width": 650,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 0,"descenderLine": 750,"advance": 630,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/m.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 150 310 L 150 750","order": 1,"startPoint": {"x": 150,"y": 310},"endPoint": {"x": 150,"y": 750},"direction": "down","relativeDuration": 0.25,"difficultyEmphasis": false,"teachingNote": "Start at the midline. Pull straight down to the baseline."},
+    {"path": "M 150 360 C 200 285 310 260 410 285 C 510 310 550 390 550 470 L 550 750","order": 2,"startPoint": {"x": 150,"y": 360},"endPoint": {"x": 550,"y": 750},"direction": "curve-clockwise","relativeDuration": 0.375,"difficultyEmphasis": false,"teachingNote": "Lift. From just above the midline on the left stick, curve over the first hump then pull down to the baseline."},
+    {"path": "M 550 360 C 600 285 710 260 810 285 C 910 310 950 390 950 470 L 950 750","order": 3,"startPoint": {"x": 550,"y": 360},"endPoint": {"x": 950,"y": 750},"direction": "curve-clockwise","relativeDuration": 0.375,"difficultyEmphasis": false,"teachingNote": "Lift. From just above the midline on the second stick, curve over the second hump then pull down to the baseline."}
+  ],
+  "width": 950,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 300,"descenderLine": 750,"advance": 980,"penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/n.json << 'EOF'
+{
+  "strokes": [
+    {"path": "M 200 310 L 200 750","order": 1,"startPoint": {"x": 200,"y": 310},"endPoint": {"x": 200,"y": 750},"direction": "down","relativeDuration": 0.4,"difficultyEmphasis": false,"teachingNote": "Start at the midline. Pull straight down to the baseline."},
+    {"path": "M 200 360 C 250 285 370 260 480 280 C 600 305 640 390 640 470 L 640 750","order": 2,"startPoint": {"x": 200,"y": 360},"endPoint": {"x": 640,"y": 750},"direction": "curve-clockwise","relativeDuration": 0.6,"difficultyEmphasis": false,"teachingNote": "Lift. From just above the midline on the left stick, curve over the hump then pull straight down to the baseline."}
+  ],
+  "width": 700,"height": 1000,"baseline": 750,"midline": 300,"ascenderLine": 300,"descenderLine": 750,"advance": 680,"penLifts": "between-all-strokes"
+}
+EOF
+
+echo "c d e f h i j k m n done"
+Output
+c d e f h i j k m n done

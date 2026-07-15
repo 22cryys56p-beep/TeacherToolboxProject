@@ -1,0 +1,11 @@
+{
+  "name": "@teacher-toolbox/artwork",
+  "version": "0.1.0",
+  "description": "Artwork filtering and resolution utilities. Phase 1: index.json + filter function. Phase 2: full ArtworkLibrary service.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": { "@teacher-toolbox/types": "*" },
+  "devDependencies": { "typescript": "^5.4.0" }
+}

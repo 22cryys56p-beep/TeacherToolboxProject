@@ -1,0 +1,204 @@
+bash
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/o.json << 'EOF'
+{
+  "strokes": [
+    {
+      "path": "M 500 300 C 650 300 800 400 800 530 C 800 700 680 750 500 750 C 320 750 200 700 200 530 C 200 400 350 300 500 300 Z",
+      "order": 1,
+      "startPoint": { "x": 500, "y": 300 },
+      "endPoint":   { "x": 500, "y": 300 },
+      "direction": "curve-clockwise",
+      "relativeDuration": 1.0,
+      "difficultyEmphasis": false,
+      "teachingNote": "Start at the top of the letter at the midline. Curve left and down, then right along the baseline, then back up to close at the starting point. The oval should be slightly wider than it is tall."
+    }
+  ],
+  "width": 600,
+  "height": 1000,
+  "baseline": 750,
+  "midline": 300,
+  "ascenderLine": 300,
+  "descenderLine": 750,
+  "advance": 620,
+  "penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/a.json << 'EOF'
+{
+  "strokes": [
+    {
+      "path": "M 580 300 C 580 300 460 280 340 350 C 220 420 200 560 240 660 C 280 750 420 770 530 750 C 620 735 680 690 680 690",
+      "order": 1,
+      "startPoint": { "x": 580, "y": 300 },
+      "endPoint":   { "x": 680, "y": 690 },
+      "direction": "curve-counterclockwise",
+      "relativeDuration": 0.65,
+      "difficultyEmphasis": true,
+      "teachingNote": "Start just below the midline on the right side. Curve left and up to the midline, then all the way around counterclockwise — left, down to the baseline, and back right. Stop with the pencil at the baseline on the right."
+    },
+    {
+      "path": "M 680 300 L 680 750",
+      "order": 2,
+      "startPoint": { "x": 680, "y": 300 },
+      "endPoint":   { "x": 680, "y": 750 },
+      "direction": "down",
+      "relativeDuration": 0.35,
+      "difficultyEmphasis": false,
+      "teachingNote": "Lift the pencil. Place it at the midline on the right side of the oval. Pull straight down to the baseline."
+    }
+  ],
+  "width": 620,
+  "height": 1000,
+  "baseline": 750,
+  "midline": 300,
+  "ascenderLine": 300,
+  "descenderLine": 750,
+  "advance": 640,
+  "penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/l.json << 'EOF'
+{
+  "strokes": [
+    {
+      "path": "M 400 0 L 400 750",
+      "order": 1,
+      "startPoint": { "x": 400, "y": 0 },
+      "endPoint":   { "x": 400, "y": 750 },
+      "direction": "down",
+      "relativeDuration": 1.0,
+      "difficultyEmphasis": false,
+      "teachingNote": "Start at the topline. Pull straight down to the baseline."
+    }
+  ],
+  "width": 380,
+  "height": 1000,
+  "baseline": 750,
+  "midline": 300,
+  "ascenderLine": 0,
+  "descenderLine": 750,
+  "advance": 380,
+  "penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/b.json << 'EOF'
+{
+  "strokes": [
+    {
+      "path": "M 300 0 L 300 750",
+      "order": 1,
+      "startPoint": { "x": 300, "y": 0 },
+      "endPoint":   { "x": 300, "y": 750 },
+      "direction": "down",
+      "relativeDuration": 0.4,
+      "difficultyEmphasis": false,
+      "teachingNote": "Start at the topline. Pull straight down to the baseline."
+    },
+    {
+      "path": "M 300 300 C 300 300 420 270 540 340 C 660 410 680 560 640 660 C 600 750 480 780 360 750 C 300 733 300 750 300 750",
+      "order": 2,
+      "startPoint": { "x": 300, "y": 300 },
+      "endPoint":   { "x": 300, "y": 750 },
+      "direction": "curve-clockwise",
+      "relativeDuration": 0.6,
+      "difficultyEmphasis": true,
+      "teachingNote": "Lift the pencil. Go back to where the tall stick meets the midline. Curve right and down, making a round bump that sits on the baseline and touches back to the bottom of the stick."
+    }
+  ],
+  "width": 650,
+  "height": 1000,
+  "baseline": 750,
+  "midline": 300,
+  "ascenderLine": 0,
+  "descenderLine": 750,
+  "advance": 650,
+  "penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/lowercase/g.json << 'EOF'
+{
+  "strokes": [
+    {
+      "path": "M 620 300 C 620 300 500 270 370 330 C 240 390 210 530 260 650 C 310 750 450 780 580 750 C 680 728 700 680 700 680",
+      "order": 1,
+      "startPoint": { "x": 620, "y": 300 },
+      "endPoint":   { "x": 700, "y": 680 },
+      "direction": "curve-counterclockwise",
+      "relativeDuration": 0.55,
+      "difficultyEmphasis": true,
+      "teachingNote": "Start just below the midline on the right. Curve left and around counterclockwise — like making an 'o' — going down to the baseline and back right. Stop at the right side near the baseline."
+    },
+    {
+      "path": "M 700 300 L 700 900 C 700 950 650 1000 550 1000 C 450 1000 380 960 350 920",
+      "order": 2,
+      "startPoint": { "x": 700, "y": 300 },
+      "endPoint":   { "x": 350, "y": 920 },
+      "direction": "down",
+      "relativeDuration": 0.45,
+      "difficultyEmphasis": false,
+      "teachingNote": "Lift the pencil. Place it at the midline on the right of the oval. Pull straight down past the baseline into the descender space, then curve left to finish the tail."
+    }
+  ],
+  "width": 680,
+  "height": 1000,
+  "baseline": 750,
+  "midline": 300,
+  "ascenderLine": 300,
+  "descenderLine": 1000,
+  "advance": 650,
+  "penLifts": "between-all-strokes"
+}
+EOF
+
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/glyphs/uppercase/H.json << 'EOF'
+{
+  "strokes": [
+    {
+      "path": "M 200 0 L 200 750",
+      "order": 1,
+      "startPoint": { "x": 200, "y": 0 },
+      "endPoint":   { "x": 200, "y": 750 },
+      "direction": "down",
+      "relativeDuration": 0.35,
+      "difficultyEmphasis": false,
+      "teachingNote": "Start at the topline. Pull straight down to the baseline."
+    },
+    {
+      "path": "M 700 0 L 700 750",
+      "order": 2,
+      "startPoint": { "x": 700, "y": 0 },
+      "endPoint":   { "x": 700, "y": 750 },
+      "direction": "down",
+      "relativeDuration": 0.35,
+      "difficultyEmphasis": false,
+      "teachingNote": "Lift the pencil. Start at the topline on the right side. Pull straight down to the baseline."
+    },
+    {
+      "path": "M 200 375 L 700 375",
+      "order": 3,
+      "startPoint": { "x": 200, "y": 375 },
+      "endPoint":   { "x": 700, "y": 375 },
+      "direction": "right",
+      "relativeDuration": 0.3,
+      "difficultyEmphasis": false,
+      "teachingNote": "Lift the pencil. Start at the middle of the left stick, halfway between the topline and baseline. Draw a straight line across to the right stick."
+    }
+  ],
+  "width": 800,
+  "height": 1000,
+  "baseline": 750,
+  "midline": 300,
+  "ascenderLine": 0,
+  "descenderLine": 750,
+  "advance": 780,
+  "penLifts": "between-all-strokes"
+}
+EOF
+
+echo "Batch 1 glyphs written"
+Output
+Batch 1 glyphs written

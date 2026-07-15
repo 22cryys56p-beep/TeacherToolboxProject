@@ -1,0 +1,16 @@
+{
+  "name": "@teacher-toolbox/types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types and interfaces for the Teacher Toolbox platform",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

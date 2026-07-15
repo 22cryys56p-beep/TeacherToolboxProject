@@ -1,0 +1,22 @@
+{
+  "name": "@teacher-toolbox/ui",
+  "version": "0.1.0",
+  "description": "Shared Svelte UI components, design tokens, and icons for the Teacher Toolbox platform",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles": "./src/styles/tokens.css"
+  },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@teacher-toolbox/types": "*"
+  },
+  "devDependencies": {
+    "svelte": "^5.0.0",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  }
+}

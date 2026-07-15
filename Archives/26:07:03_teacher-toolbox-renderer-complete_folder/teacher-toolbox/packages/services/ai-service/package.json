@@ -1,0 +1,11 @@
+{
+  "name": "@teacher-toolbox/ai-service",
+  "version": "0.1.0",
+  "description": "AI provider abstraction layer. Fully stubbed in Phase 1 — returns null for all requests.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": { "@teacher-toolbox/types": "*" },
+  "devDependencies": { "typescript": "^5.4.0" }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@teacher-toolbox/analytics",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": { "@teacher-toolbox/types": "*" },
+  "devDependencies": { "typescript": "^5.4.0" }
+}

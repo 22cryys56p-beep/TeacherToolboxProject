@@ -1,0 +1,14 @@
+{
+  "name": "@teacher-toolbox/template-manager",
+  "version": "0.1.0",
+  "description": "Template CRUD, catalogue, and instantiation.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@teacher-toolbox/types": "*",
+    "@teacher-toolbox/storage": "*"
+  },
+  "devDependencies": { "typescript": "^5.4.0" }
+}

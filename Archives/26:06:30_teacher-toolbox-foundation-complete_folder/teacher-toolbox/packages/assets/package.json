@@ -1,0 +1,6 @@
+{
+  "name": "@teacher-toolbox/assets",
+  "version": "0.1.0",
+  "description": "Bundled static assets: fonts, artwork, themes, and templates",
+  "type": "module"
+}

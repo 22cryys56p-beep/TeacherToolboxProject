@@ -1,0 +1,11 @@
+{
+  "name": "@teacher-toolbox/storage",
+  "version": "0.1.0",
+  "description": "Local persistence — abstracts IndexedDB/localStorage. No other service touches the DB directly.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": { "@teacher-toolbox/types": "*" },
+  "devDependencies": { "typescript": "^5.4.0" }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@teacher-toolbox/migration",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@teacher-toolbox/types": "*",
+    "@teacher-toolbox/error-reporter": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

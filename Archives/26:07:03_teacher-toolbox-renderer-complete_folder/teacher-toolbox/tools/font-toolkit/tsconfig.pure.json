@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2022"
+  },
+  "include": [
+    "src/types/**/*.ts",
+    "src/validator/**/*.ts",
+    "src/messages/**/*.ts",
+    "src/builder/**/*.ts"
+  ],
+  "exclude": [
+    "src/project/**/*.ts",
+    "src/io/**/*.ts",
+    "src/cli/**/*.ts",
+    "src/node-shims.d.ts"
+  ]
+}
