@@ -1,0 +1,82 @@
+
+bash
+cat > /home/claude/teacher-toolbox/packages/assets/fonts/zaner-bloser-print/AUTHORING_PROGRESS.json << 'EOF'
+{
+  "_note": "Track authoring progress here. Move characters from PLACEHOLDER to IN_REVIEW or DONE as each glyph is completed with real stroke data. A glyph is DONE when it has passed pedagogical review.",
+  "batches": {
+    "batch_1_calibration": {
+      "_description": "Author these first — confirms ruling ratios are correct before any other work proceeds. C1 must be fully clean after this batch.",
+      "order": ["o", "a", "l", "b", "g", "H"],
+      "status": {
+        "o": "PLACEHOLDER",
+        "a": "PLACEHOLDER",
+        "l": "PLACEHOLDER",
+        "b": "PLACEHOLDER",
+        "g": "PLACEHOLDER",
+        "H": "PLACEHOLDER"
+      }
+    },
+    "batch_2_lowercase": {
+      "_description": "Remaining 20 lowercase letters. All R rules must pass at end of batch.",
+      "order": ["c","d","e","f","h","i","j","k","m","n","p","q","r","s","t","u","v","w","x","y","z"],
+      "status": {
+        "c": "PLACEHOLDER", "d": "PLACEHOLDER", "e": "PLACEHOLDER",
+        "f": "PLACEHOLDER", "h": "PLACEHOLDER", "i": "PLACEHOLDER",
+        "j": "PLACEHOLDER", "k": "PLACEHOLDER", "m": "PLACEHOLDER",
+        "n": "PLACEHOLDER", "p": "PLACEHOLDER", "q": "PLACEHOLDER",
+        "r": "PLACEHOLDER", "s": "PLACEHOLDER", "t": "PLACEHOLDER",
+        "u": "PLACEHOLDER", "v": "PLACEHOLDER", "w": "PLACEHOLDER",
+        "x": "PLACEHOLDER", "y": "PLACEHOLDER", "z": "PLACEHOLDER"
+      }
+    },
+    "batch_3_uppercase": {
+      "_description": "All 26 capitals. Author A and I first (shared stroke patterns). C3 advance-width outliers must be reviewed.",
+      "order": ["A","I","B","C","D","E","F","G","H","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
+      "status": {
+        "A": "PLACEHOLDER", "B": "PLACEHOLDER", "C": "PLACEHOLDER",
+        "D": "PLACEHOLDER", "E": "PLACEHOLDER", "F": "PLACEHOLDER",
+        "G": "PLACEHOLDER", "H": "DONE_BATCH1",  "I": "PLACEHOLDER",
+        "J": "PLACEHOLDER", "K": "PLACEHOLDER", "L": "PLACEHOLDER",
+        "M": "PLACEHOLDER", "N": "PLACEHOLDER", "O": "PLACEHOLDER",
+        "P": "PLACEHOLDER", "Q": "PLACEHOLDER", "R": "PLACEHOLDER",
+        "S": "PLACEHOLDER", "T": "PLACEHOLDER", "U": "PLACEHOLDER",
+        "V": "PLACEHOLDER", "W": "PLACEHOLDER", "X": "PLACEHOLDER",
+        "Y": "PLACEHOLDER", "Z": "PLACEHOLDER"
+      }
+    },
+    "batch_4_numerals": {
+      "_description": "0-9. All sit between midline and baseline (non-ascending, non-descending) per design doc §5.1.",
+      "order": ["0","1","2","3","4","5","6","7","8","9"],
+      "status": {
+        "0": "PLACEHOLDER", "1": "PLACEHOLDER", "2": "PLACEHOLDER",
+        "3": "PLACEHOLDER", "4": "PLACEHOLDER", "5": "PLACEHOLDER",
+        "6": "PLACEHOLDER", "7": "PLACEHOLDER", "8": "PLACEHOLDER",
+        "9": "PLACEHOLDER"
+      }
+    },
+    "batch_5_punctuation": {
+      "_description": "Common punctuation for sentence-tracing worksheets. S1 extended coverage.",
+      "order": [".", ",", "!", "?", "'"],
+      "status": {
+        ".": "PLACEHOLDER",
+        ",": "PLACEHOLDER",
+        "!": "PLACEHOLDER",
+        "?": "PLACEHOLDER",
+        "'": "PLACEHOLDER"
+      }
+    }
+  },
+  "summary": {
+    "total_required": 62,
+    "total_extended": 5,
+    "placeholder": 67,
+    "in_progress": 0,
+    "in_review": 0,
+    "done": 0,
+    "target_version_1_0_0": "All 62 required + 5 punctuation DONE, pedagogical review passed, completeness >= 90"
+  }
+}
+EOF
+echo "AUTHORING_PROGRESS.json written"
+Output
+AUTHORING_PROGRESS.json written
