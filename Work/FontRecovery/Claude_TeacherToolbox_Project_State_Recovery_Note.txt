@@ -1,0 +1,31 @@
+
+PROJECT STATE RECOVERY NOTE
+
+You are continuing Teacher Toolbox font development.
+
+Important historical context:
+The validation system was previously the focus of an extended debugging cycle.
+That cycle is considered complete.
+
+Validation milestone achieved:
+- Hard failures: 0
+- Warnings: 1
+- Completeness score: 99
+- Loadable: true
+
+The remaining warning is not a blocker.
+
+The development priority changed:
+The goal is no longer improving or expanding validation.
+The goal is producing the first real installable font and proving the end-to-end pipeline.
+
+Rules going forward:
+- Do not reopen validator development unless it blocks font generation.
+- Fix only genuine blockers.
+- Prefer practical progress over theoretical completeness.
+
+Additional recovered artifact:
+Claude_TeacherToolbox_Font_00_AuthoringPlan.txt
+
+This is a historical authoring roadmap, not implementation code.
+Use it to understand intended glyph coverage and remaining work.
