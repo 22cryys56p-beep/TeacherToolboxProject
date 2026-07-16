@@ -11,9 +11,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@teacher-toolbox/types": "*",
-    "@teacher-toolbox/settings": "*",
-    "@teacher-toolbox/font-manager": "*"
+    "@teacher-toolbox/types": "workspace:*",
+    "@teacher-toolbox/settings": "workspace:*",
+    "@teacher-toolbox/font-manager": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.4.0"

@@ -11,11 +11,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@teacher-toolbox/types": "*",
-    "@teacher-toolbox/theme-engine": "*",
-    "@teacher-toolbox/font-manager": "*",
-    "@teacher-toolbox/migration": "*",
-    "@teacher-toolbox/identity": "*"
+    "@teacher-toolbox/types": "workspace:*",
+    "@teacher-toolbox/theme-engine": "workspace:*",
+    "@teacher-toolbox/font-manager": "workspace:*",
+    "@teacher-toolbox/migration": "workspace:*",
+    "@teacher-toolbox/identity": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.4.0"

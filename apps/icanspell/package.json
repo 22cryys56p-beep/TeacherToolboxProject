@@ -7,9 +7,9 @@
   "exports": { ".": "./src/index.ts" },
   "scripts": { "typecheck": "tsc --noEmit" },
   "dependencies": {
-    "@teacher-toolbox/types": "*",
-    "@teacher-toolbox/core":  "*",
-    "@teacher-toolbox/ui":    "*"
+    "@teacher-toolbox/types": "workspace:*",
+    "@teacher-toolbox/core":  "workspace:*",
+    "@teacher-toolbox/ui":    "workspace:*"
   },
   "devDependencies": {
     "svelte":      "^5.0.0",

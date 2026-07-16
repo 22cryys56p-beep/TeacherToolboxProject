@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@teacher-toolbox/types": "*",
-    "@teacher-toolbox/error-reporter": "*"
+    "@teacher-toolbox/types": "workspace:*",
+    "@teacher-toolbox/error-reporter": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.4.0"

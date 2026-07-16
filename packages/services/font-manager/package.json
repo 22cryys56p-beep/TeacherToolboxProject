@@ -11,8 +11,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@teacher-toolbox/types": "*",
-    "@teacher-toolbox/storage": "*"
+    "@teacher-toolbox/types": "workspace:*",
+    "@teacher-toolbox/storage": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.4.0"
