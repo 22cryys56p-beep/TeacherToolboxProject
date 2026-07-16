@@ -1,0 +1,21 @@
+{
+  "name": "@teacher-toolbox/theme-engine",
+  "version": "0.1.0",
+  "description": "Theme loading, validation, CSS variable injection, and render context.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@teacher-toolbox/types": "*",
+    "@teacher-toolbox/settings": "*",
+    "@teacher-toolbox/font-manager": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

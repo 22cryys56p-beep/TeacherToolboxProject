@@ -1,0 +1,130 @@
+/**
+ * Teacher Toolbox — Design Tokens
+ * ================================
+ * All CSS custom properties for the platform shell and UI components.
+ *
+ * LOCALISATION NOTE: All layout properties use CSS Logical Properties
+ * (inline-start/end, block-start/end) rather than physical directional
+ * properties (left/right/top/bottom). This ensures RTL language support
+ * requires zero CSS changes — only the <html dir="rtl"> attribute.
+ *
+ * Theme tokens (--tt-*) are injected at runtime by ThemeEngine.
+ * Shell tokens (--shell-*) are static.
+ * Spacing/type/radius tokens are static.
+ */
+
+:root {
+  /* ── Theme tokens — overwritten at runtime by ThemeEngine ─────────────── */
+  --tt-page-bg:           #ffffff;
+  --tt-baseline-color:    #000000;
+  --tt-midline-color:     #aaaaaa;
+  --tt-topline-color:     #aaaaaa;
+  --tt-margin-line-color: #ff6b6b;
+  --tt-text-primary:      #1a1a1a;
+  --tt-text-secondary:    #555555;
+  --tt-text-accent:       #1d6fb8;
+  --tt-border-color:      #e0e0e0;
+  --tt-accent:            #1d6fb8;
+
+  /* ── Shell colours (screen only, never printed) ───────────────────────── */
+  --shell-bg:              #f5f5f7;
+  --shell-sidebar-bg:      #1e2433;
+  --shell-sidebar-text:    #c8cdd8;
+  --shell-sidebar-active:  #ffffff;
+  --shell-sidebar-hover:   rgba(255,255,255,0.08);
+  --shell-header-bg:       #ffffff;
+  --shell-header-border:   #e8e8e8;
+  --shell-panel-bg:        #ffffff;
+  --shell-panel-border:    #e8e8e8;
+
+  /* ── Spacing scale (4px base) ─────────────────────────────────────────── */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* ── Typography ───────────────────────────────────────────────────────── */
+  --font-sans:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono:  'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 14px;
+  --text-md:   16px;
+  --text-lg:   18px;
+  --text-xl:   22px;
+  --text-2xl:  28px;
+
+  --font-normal:   400;
+  --font-medium:   500;
+  --font-semibold: 600;
+  --font-bold:     700;
+
+  --leading-tight:  1.25;
+  --leading-normal: 1.5;
+  --leading-loose:  1.75;
+
+  /* ── Borders & radii ──────────────────────────────────────────────────── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ──────────────────────────────────────────────────────────── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.08), 0 4px 6px rgba(0,0,0,0.04);
+
+  /* ── Layout ───────────────────────────────────────────────────────────── */
+  --sidebar-width:  220px;
+  --header-height:   52px;
+  --panel-width:    280px;
+
+  /* ── Transitions ──────────────────────────────────────────────────────── */
+  --transition-fast:   100ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow:   350ms ease;
+
+  /* ── Z-index scale ────────────────────────────────────────────────────── */
+  --z-base:    0;
+  --z-raised:  10;
+  --z-overlay: 100;
+  --z-modal:   200;
+  --z-toast:   300;
+}
+
+/* ── Global reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin:     0;
+  padding:    0;
+}
+
+html {
+  font-family:              var(--font-sans);
+  font-size:                var(--text-base);
+  color:                    var(--tt-text-primary);
+  background:               var(--shell-bg);
+  -webkit-font-smoothing:   antialiased;
+  -moz-osx-font-smoothing:  grayscale;
+  /* RTL support: set dir="rtl" on <html> — no CSS changes needed */
+}
+
+body {
+  overflow: hidden;
+  block-size:  100vh;
+  inline-size: 100vw;
+}
+
+button {
+  cursor:      pointer;
+  font-family: inherit;
+}
+
+a { color: var(--tt-accent); text-decoration: none; }

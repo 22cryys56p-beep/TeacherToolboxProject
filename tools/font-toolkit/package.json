@@ -1,0 +1,17 @@
+{
+  "name": "@teacher-toolbox/font-toolkit",
+  "version": "0.1.0",
+  "description": "Teacher Toolbox Font Authoring & Validation Toolkit — implements all TTHFS v1.0.0 validation rules and packages handwriting fonts for use by the platform renderer.",
+  "type": "module",
+  "bin": {
+    "tt-font": "./src/cli/index.js"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "validate": "node src/cli/index.js validate",
+    "build-font": "node src/cli/index.js build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
