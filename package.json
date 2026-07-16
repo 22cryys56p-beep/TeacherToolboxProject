@@ -12,7 +12,9 @@
     "lint": "pnpm --recursive lint",
     "clean": "pnpm --recursive exec rm -rf dist .svelte-kit"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
   "workspaces": [
     "packages/*",
     "packages/services/*",
