@@ -6,7 +6,7 @@
    * The app module mounts its content into the #app-mount-point div.
    */
 
-  import EmptyState from '@teacher-toolbox/ui';
+  import { EmptyState } from '@teacher-toolbox/ui';
 
   export let activeAppName: string | null = null;
 
