@@ -310,6 +310,9 @@ importers:
 
   packages/testing:
     dependencies:
+      '@teacher-toolbox/storage':
+        specifier: workspace:^
+        version: link:../services/storage
       '@teacher-toolbox/types':
         specifier: workspace:*
         version: link:../types
